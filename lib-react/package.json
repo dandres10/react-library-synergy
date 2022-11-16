@@ -1,0 +1,25 @@
+{
+  "name": "lib-react-synergy",
+  "version": "1.0.0",
+  "description": "librerira de react ",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -p ."
+  },
+  "keywords": [
+    "react-lib",
+    "libreria-react"
+  ],
+  "author": "Marlon Leon",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.11.0"
+  }
+}
